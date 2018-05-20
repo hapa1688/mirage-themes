@@ -523,6 +523,13 @@ na-tray-applet widget box widget {
     color: @theme_fg_color;
 }
 
+/* xrandr applet */
+.mate-panel-menu-bar menuitem.xrandr-applet:disabled > box > label {
+	background-color: transparent;
+    color: @menu_fg_color;
+    border-color: transparent;
+}
+
 /* mate-menu, mintmenu */
 #mintmenu.background,
 #mate-menu.background {
