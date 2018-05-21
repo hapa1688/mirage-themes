@@ -1,6 +1,6 @@
 /*******************************************************
  * Blue-Submarine                                      *
- * Part of https://github.com/mate-desktop/mate-themes *
+ * Part of https://github.com/mirage-desktop/mirage-themes *
  * Author Wolfgang Ulbrich                             *
  *******************************************************/
  
@@ -36,13 +36,13 @@ window {
     color: @theme_fg_color;
 }
 
-/* exclude widget for mate-menu */
+/* exclude widget for mirage-menu */
 .background:not(widget) {
 	color: @theme_fg_color;
 	background-color: @theme_bg_color;
 }
 
-/* override previous setting for rubberband of mate-screenshot */
+/* override previous setting for rubberband of mirage-screenshot */
 .background.rubberband {
 	background-color: transparent;
 }
@@ -130,7 +130,7 @@ label:disabled {
     background-image: url("assets/resize-grip.svg");
 }
 
-/* ie. selection mouse retancle in caja */
+/* ie. selection mouse retancle in barren */
 view.rubberband,
 rubberband,
 .view.rubberband,
@@ -981,7 +981,7 @@ button.default {
     color: @theme_fg_color;
 }
 
-/* ie. mate-control-center */
+/* ie. mirage-control-center */
 button.flat {
     transition: all 400ms ease-out;
     border-radius: 6px;
@@ -995,7 +995,7 @@ button.flat {
     border-image: none;
 }
 
-/* ie. caja location drop down button */
+/* ie. barren location drop down button */
 button.flat.toggle {
     padding: 5px;
 }
@@ -2796,7 +2796,7 @@ toolbar separator:disabled {
     primary toolbar raised buttons
 *************************************/
 
-/* ie. cimnnamon-settings (button.raised), mate-font-viewer toolbar info button */
+/* ie. cimnnamon-settings (button.raised), mirage-font-viewer toolbar info button */
 toolbar .raised button,
 toolbar button.raised,
 toolbar button.raised:hover,
@@ -3584,7 +3584,7 @@ notebook header tab .active-page label {
     color: @theme_fg_color;
 }
 
-/* tabs and header in view areas, ie. pluma-, caja-tabs */
+/* tabs and header in view areas, ie. pluma-, barren-tabs */
 paned.horizontal > box.vertical notebook > header.top,
 paned.horizontal > paned.vertical notebook > header.top {
     border-style: solid;
@@ -4004,7 +4004,7 @@ assistant .sidebar {
 }
 
 assistant .sidebar highlight,
-assistant .sidebar label.highlight { /* ie. caja-actions import dialog */
+assistant .sidebar label.highlight { /* ie. barren-actions import dialog */
     color: @theme_text_color;
     font-weight: bold;
 }
@@ -4168,14 +4168,14 @@ iconview.content-view.check:active {
 
 iconview,
 viewport {
-    /* avoid resizing theme thumbnails in mate-appearance-properties */
+    /* avoid resizing theme thumbnails in mirage-appearance-properties */
     padding: 0px;
 }
 
 iconview {
     border-width: 0px;
     border-style: none;
-    /* background view mate-appearance-properties */
+    /* background view mirage-appearance-properties */
     background-color: @base_color;
 }
 
@@ -4953,7 +4953,7 @@ messagedialog {
     padding: 0;
 }
 
-/* ie. caja properties-window notes tab */
+/* ie. barren properties-window notes tab */
 dialog notebook.frame > stack > scrolledwindow.frame {
     border-style: none;
 }

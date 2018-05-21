@@ -12,7 +12,7 @@ icon_DATA= \
 	accessories-text-editor.svg \
 	atril.svg \
 	help-browser.svg \
-	mate-invest-applet.svg \
+	mirage-invest-applet.svg \
 	meld.svg \
 	preferences-desktop-accessibility.svg \
 	preferences-desktop-font.svg \

@@ -188,7 +188,7 @@
 @define-color overshoot_backdrop_bg_color #C8FA96;
 
 /**************
- * MATE Apps  *
+ * MIRAGE Apps  *
  **************/
 @define-color cluebar_color shade (@theme_base_color, 0.9);
 
@@ -231,7 +231,7 @@
 /* csd border */
 @define-color wm_csd_solid_border_color shade (#3c3c3c, 1.2);
 
-/* inactive-pane caja */
+/* inactive-pane barren */
 @define-color inactive-pane_bg_color #DEDEDE;
 
 @import url("gtk-main-common.css");
@@ -240,7 +240,7 @@
 @import url("gtk-widgets-assets.css");
 @import url("gtk-widgets.css");
 @import url("gnome-applications.css");
-@import url("mate-applications.css");
+@import url("mirage-applications.css");
 @import url("other-applications.css");
 @import url("unity.css");
 @import url("window-controls.css");

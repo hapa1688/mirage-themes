@@ -1,0 +1,138 @@
+### This file styles Barren. ###
+
+style "barren-window-base" { bg[NORMAL] = @bg_color }
+
+style "barren-sidebar" = "murrine-sidebar" {
+	GtkTreeView::horizontal_separator = 15
+	GtkTreeView::vertical_separator = 2
+	text[NORMAL] = @fg_color
+	bg[NORMAL]  = mix (0.60, shade (1.15, @bg_color), @bg_color)
+
+	GtkTreeView::odd_row_color = mix (0.60, shade (1.15, @bg_color), @bg_color)
+	GtkTreeView::even_row_color = mix (0.60, shade (1.15, @bg_color), @bg_color)
+}
+
+style "barren-view" {
+	xthickness = 0
+	ythickness = 0
+}
+
+style "barren-handle" {
+	GtkPaned::handle-size = 1
+	
+	engine "pixmap" {
+		# for the thin gray line separating the sidepane and viewpane
+		image {
+			function	= HANDLE
+			recolorable	= TRUE
+			file		= "Handles/handle-barren.png"
+			stretch		= TRUE
+			border		= { 0, 0, 0, 0 }
+		}
+	}
+}
+
+style "barren-statusbar"
+{
+	bg[NORMAL]  = mix (0.60, shade (1.10, @bg_color), @bg_color)
+	base[NORMAL] = @base_color
+	fg[NORMAL] = shade (1.2, @fg_color)
+
+	engine "pixmap" {
+		image
+		{
+		function        = HANDLE
+		recolorable     = TRUE
+		file            = "Handles/resize-grip.png"
+		state           = NORMAL
+		stretch         = TRUE
+		border          = { 0, 0, 1, 0 }
+		}
+	}
+}
+
+style "barren-location"
+{
+	bg[NORMAL]  = mix (0.60, shade (1.05, @bg_color), @bg_color)
+}
+
+style "barren-pathbar"
+{	
+    bg[PRELIGHT] 	= shade(0.91, @bg_color)
+    bg[ACTIVE] 		= shade(0.76, @bg_color)
+	bg[SELECTED] 	= shade(0.80, @selected_bg_color)
+	bg[INSENSITIVE] = shade(0.83, @bg_color)
+
+    fg[NORMAL]          = @fg_color
+	fg[PRELIGHT]	    = @fg_color
+	fg[ACTIVE]	        = @fg_color
+	fg[SELECTED]	    = @fg_color_dark
+}
+
+# workaround for toolbar dropdown menu and toolbar button
+style "barren-toolbar-button"
+{
+    xthickness	= 3
+    ythickness	= 2
+
+	bg[NORMAL]		= shade(0.80, @bg_color_dark)
+    bg[PRELIGHT] 	= shade(0.91, @bg_color_dark)
+    bg[ACTIVE] 		= shade(0.76, @bg_color_dark)
+	bg[SELECTED] 	= shade(0.80, @selected_bg_color)
+	bg[INSENSITIVE] = shade(0.83, @bg_color_dark)
+
+	fg[NORMAL]          = @fg_color_dark
+	fg[PRELIGHT]	    = shade (1.20, @selected_bg_color)
+	fg[ACTIVE]	        = shade (1.20, @selected_bg_color)
+	fg[SELECTED]	    = shade (1.20, @selected_bg_color)
+
+    text[NORMAL]        = @fg_color_dark
+	text[PRELIGHT]	    = shade (1.20, @selected_bg_color)
+	text[ACTIVE]	    = shade (1.20, @selected_bg_color)
+	text[SELECTED]	    = shade (1.20, @selected_bg_color)
+
+	engine "murrine" {
+		gradient_shades    = {2.63,1.17,1.17,1.17}
+		border_shades      = {5.10, 5.00}
+		contrast           = 0.80
+		roundness          = 5 # 0 = squared
+		lightborderstyle   = 1
+		lightborder_shade  = 1.1
+        glow_shade         = 1.0
+		textstyle          = 1
+		text_shade         = 1.15
+	}
+}
+
+############################################
+# BARREN
+# Order of assignment is important
+#############################################
+
+widget_class "*BarrenSidePane.*"                 style "barren-sidebar"
+widget_class "*Barren*Places*Sidebar*"           style "barren-sidebar"
+widget_class "*Barren*Side*.GtkWidget"           style "barren-sidebar"
+widget_class "*Barren*Side*Title*"               style "barren-sidebar"
+
+widget "*BarrenNavigationWindow"                 style "barren-window-base"
+
+widget_class "*Barren*Scrollbar"                 style "murrine-scrollbar"
+widget_class "*BarrenSidePane.*Scrollbar"        style:highest "murrine-scrollbar"
+widget_class "*Barren*Statusbar*"                style "barren-statusbar"
+
+widget "*Barren*Splitter"                        style "barren-handle"
+widget_class "*Barren*View*"                     style "barren-view"
+widget_class "*Barren*Notebook"                  style "murrine-notebook"
+
+widget_class "*Barren*<GtkTreeView>.<GtkButton>" style "murrine-treeview-header"
+widget_class "*Barren*<GtkCTree>.<GtkButton>"    style "murrine-treeview-header"
+widget_class "*Barren*<GtkList>.<GtkButton>"     style "murrine-treeview-header"
+widget_class "*Barren*<GtkCList>.<GtkButton>"    style "murrine-treeview-header"
+
+widget_class "*BarrenPathBar*"                   style "barren-pathbar" 
+widget "*.barren-extra-view-widget" 		       style : highest "barren-location"
+
+# workaround for toolbar dropdown menu and toolbar button
+widget_class "*Barren*Toolbar*Button" style "barren-toolbar-button"
+widget_class "*Barren*Toolbar*.<GtkComboBox>.<GtkCellView>" style "barren-toolbar-button"
+

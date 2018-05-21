@@ -71,24 +71,24 @@ icon_DATA= \
 	libreoffice-math.png \
 	libreoffice-startcenter.png \
 	libreoffice-writer.png \
-	mate-application-generic.png \
-	mate-brightness-applet.png \
-	mate-invest-applet.png \
-	mate-logo-icon-transparent.png \
-	mate-log.png \
-	mate-netspeed-applet.png \
-	mate-network-properties.png \
-	mate-notification-properties.png \
-	mate-panel-clock.png \
-	mate-panel-drawer.png \
-	mate-panel-force-quit.png \
-	mate-panel-launcher.png \
-	mate-panel-window-list.png \
-	mate-panel-window-menu.png \
-	mate-panel-workspace-switcher.png \
-	mate-preferences-desktop-display.png \
-	mate-session-properties.png \
-	mate-starthere.png \
+	mirage-application-generic.png \
+	mirage-brightness-applet.png \
+	mirage-invest-applet.png \
+	mirage-logo-icon-transparent.png \
+	mirage-log.png \
+	mirage-netspeed-applet.png \
+	mirage-network-properties.png \
+	mirage-notification-properties.png \
+	mirage-panel-clock.png \
+	mirage-panel-drawer.png \
+	mirage-panel-force-quit.png \
+	mirage-panel-launcher.png \
+	mirage-panel-window-list.png \
+	mirage-panel-window-menu.png \
+	mirage-panel-workspace-switcher.png \
+	mirage-preferences-desktop-display.png \
+	mirage-session-properties.png \
+	mirage-starthere.png \
 	miro.png \
 	mozo.png \
 	multimedia-volume-control.png \

@@ -1,6 +1,6 @@
 AC_PREREQ(2.53)
 
-AC_INIT([mate-themes], [3.22.17], [http://www.mate-desktop.org])
+AC_INIT([mirage-themes], [3.22.17], [http://www.mirage-desktop.org])
 AC_CONFIG_SRCDIR([icon-themes])
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz no-dist-gzip check-news])
@@ -34,39 +34,39 @@ gtk_stock_icons_rc=${srcdir}/common/gtk-stock-icons.rc
 panel_stock_icons_rc=${srcdir}/common/panel-stock-icons.rc
 media_stock_icons_rc=${srcdir}/common/media-stock-icons.rc
 capplet_stock_icons_rc=${srcdir}/common/capplet-stock-icons.rc
-marco_stock_icons_rc=${srcdir}/common/marco-stock-icons.rc
+morgana_stock_icons_rc=${srcdir}/common/morgana-stock-icons.rc
 AC_SUBST_FILE(gtk_stock_icons_rc)
 AC_SUBST_FILE(panel_stock_icons_rc)
 AC_SUBST_FILE(media_stock_icons_rc)
 AC_SUBST_FILE(capplet_stock_icons_rc)
-AC_SUBST_FILE(marco_stock_icons_rc)
+AC_SUBST_FILE(morgana_stock_icons_rc)
 
 AC_CONFIG_FILES([
 Makefile
 common/Makefile
 cursor-themes/Makefile
-cursor-themes/mate-white/Makefile
-cursor-themes/mate-white/cursors/Makefile
-cursor-themes/mate-black/Makefile
-cursor-themes/mate-black/cursors/Makefile
+cursor-themes/mirage-white/Makefile
+cursor-themes/mirage-white/cursors/Makefile
+cursor-themes/mirage-black/Makefile
+cursor-themes/mirage-black/cursors/Makefile
 desktop-themes/Makefile
-desktop-themes/BlackMATE/Makefile
-desktop-themes/BlackMATE/apps/Makefile
-desktop-themes/BlackMATE/gtk-2.0/Makefile
-desktop-themes/BlackMATE/gtk-2.0/assets/Makefile
-desktop-themes/BlackMATE/gtk-2.0/Styles/Makefile
-desktop-themes/BlackMATE/gtk-3.0/Makefile
-desktop-themes/BlackMATE/gtk-3.0/assets/Makefile
-desktop-themes/BlackMATE/gtk-3.0/window-controls/Makefile
-desktop-themes/BlackMATE/metacity-1/Makefile
-desktop-themes/BlackMATE/cinnamon/Makefile
-desktop-themes/BlackMATE/unity/Makefile
+desktop-themes/BlackMIRAGE/Makefile
+desktop-themes/BlackMIRAGE/apps/Makefile
+desktop-themes/BlackMIRAGE/gtk-2.0/Makefile
+desktop-themes/BlackMIRAGE/gtk-2.0/assets/Makefile
+desktop-themes/BlackMIRAGE/gtk-2.0/Styles/Makefile
+desktop-themes/BlackMIRAGE/gtk-3.0/Makefile
+desktop-themes/BlackMIRAGE/gtk-3.0/assets/Makefile
+desktop-themes/BlackMIRAGE/gtk-3.0/window-controls/Makefile
+desktop-themes/BlackMIRAGE/metacity-1/Makefile
+desktop-themes/BlackMIRAGE/cinnamon/Makefile
+desktop-themes/BlackMIRAGE/unity/Makefile
 desktop-themes/BlueMenta/Makefile
 desktop-themes/BlueMenta/cinnamon/Makefile
 desktop-themes/BlueMenta/emerald/Makefile
 desktop-themes/BlueMenta/gtk-2.0/Makefile
 desktop-themes/BlueMenta/gtk-2.0/apps/Makefile
-desktop-themes/BlueMenta/gtk-2.0/apps/Caja/Makefile
+desktop-themes/BlueMenta/gtk-2.0/apps/Barren/Makefile
 desktop-themes/BlueMenta/gtk-2.0/apps/Handles/Makefile
 desktop-themes/BlueMenta/gtk-2.0/apps/Null/Makefile
 desktop-themes/BlueMenta/gtk-2.0/apps/Others/Makefile
@@ -123,7 +123,7 @@ desktop-themes/Menta/cinnamon/Makefile
 desktop-themes/Menta/emerald/Makefile
 desktop-themes/Menta/gtk-2.0/Makefile
 desktop-themes/Menta/gtk-2.0/apps/Makefile
-desktop-themes/Menta/gtk-2.0/apps/Caja/Makefile
+desktop-themes/Menta/gtk-2.0/apps/Barren/Makefile
 desktop-themes/Menta/gtk-2.0/apps/Handles/Makefile
 desktop-themes/Menta/gtk-2.0/apps/Null/Makefile
 desktop-themes/Menta/gtk-2.0/apps/Others/Makefile
@@ -152,7 +152,7 @@ desktop-themes/TraditionalOk/metacity-1/Makefile
 desktop-themes/TraditionalOk/openbox-3/Makefile
 desktop-themes/TraditionalOk/xfwm4/Makefile
 desktop-themes/TraditionalOk/xfwm4/png/Makefile
-marco-themes/Makefile
+morgana-themes/Makefile
 icon-themes/Makefile
 icon-themes/ContrastHigh/Makefile
 icon-themes/ContrastHigh/16x16/Makefile
@@ -242,7 +242,7 @@ AC_OUTPUT
 
 dnl ==========================================================================
 echo "
-mate-themes-$VERSION:
+mirage-themes-$VERSION:
 
 	Installation prefix:	${prefix}
 

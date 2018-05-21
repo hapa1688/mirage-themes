@@ -11,9 +11,9 @@ widget_class "*.<ETable>.<ECanvas>" style "treeview_header"
 # Workaround for the evolution ETree
 widget_class "*.<ETree>.<ECanvas>" style "treeview_header"
 
-# Special case the caja-extra-view-widget
+# Special case the barren-extra-view-widget
 # ToDo: A more generic approach for all applications that have a widget like this.
-widget "*.caja-extra-view-widget" style : highest "caja-location"
+widget "*.barren-extra-view-widget" style : highest "barren-location"
 
 # Work around for http://bugzilla.gnome.org/show_bug.cgi?id=382646
 # Note that this work around assumes that the combobox is _not_ in appears-as-list mode.
@@ -26,7 +26,7 @@ widget "*.gtk-combobox-popup-menu.*" style "menuitem_text_is_fg_color_workaround
 widget_class "*<GtkListItem>*" style "fg_is_text_color_workaround"
 # GtkCList also uses the fg color to draw text on top of the base colors.
 widget_class "*<GtkCList>" style "fg_is_text_color_workaround"
-# Caja when renaming files, and maybe other places.
+# Barren when renaming files, and maybe other places.
 widget_class "*<EelEditableLabel>" style "fg_is_text_color_workaround"
 
 # See the documentation of the style.

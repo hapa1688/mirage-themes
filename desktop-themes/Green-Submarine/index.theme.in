@@ -7,5 +7,5 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Green-Submarine
 MetacityTheme=Green-Submarine
-IconTheme=mate
-CursorTheme=mate
+IconTheme=mirage
+CursorTheme=mirage

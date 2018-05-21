@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
  
-[MATE.mate-themes]
+[MIRAGE.mirage-themes]
 file_filter = po/<lang>.po
-source_file = po/mate-themes.pot
+source_file = po/mirage-themes.pot
 source_lang = en

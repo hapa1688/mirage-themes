@@ -6,23 +6,23 @@
 # Carlos Moreira, 2014,2017
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009
 # José Vieira <jvieira33@sapo.pt>, 2017
-# Pedro Mateus <pedro@linuxgamecast.com>, 2016
+# Pedro Mirageus <pedro@linuxgamecast.com>, 2016
 # Sérgio Marques <smarquespt@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: MIRAGE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-04 20:57+0200\n"
 "PO-Revision-Date: 2017-09-23 18:11+0000\n"
 "Last-Translator: José Vieira <jvieira33@sapo.pt>\n"
-"Language-Team: Portuguese (http://www.transifex.com/mate/MATE/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/mirage/MIRAGE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../desktop-themes/BlackMATE/index.theme.in.h:1
+#: ../desktop-themes/BlackMIRAGE/index.theme.in.h:1
 msgid "A clean dark theme"
 msgstr "Um tema escuro e desimpedido"
 

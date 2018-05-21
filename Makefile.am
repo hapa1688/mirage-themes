@@ -1,5 +1,5 @@
 SUBDIRS = \
-	marco-themes \
+	morgana-themes \
 	icon-themes \
 	desktop-themes \
 	cursor-themes \

@@ -7,7 +7,7 @@
 #### Steps to reproduce the behaviour
 
 
-#### MATE general version
+#### MIRAGE general version
 
 
 #### Package version

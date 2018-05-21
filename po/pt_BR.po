@@ -12,19 +12,19 @@
 # Marcus Vinícius Marques, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: MIRAGE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-04 20:57+0200\n"
 "PO-Revision-Date: 2017-09-19 12:10+0000\n"
 "Last-Translator: Iuri Suzano <isuzano@netkings.cc>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/mate/MATE/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/mirage/MIRAGE/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../desktop-themes/BlackMATE/index.theme.in.h:1
+#: ../desktop-themes/BlackMIRAGE/index.theme.in.h:1
 msgid "A clean dark theme"
 msgstr "Um tema limpo escuro"
 

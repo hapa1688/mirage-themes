@@ -59,8 +59,8 @@ icon_DATA= \
 	libreoffice-math.png \
 	libreoffice-startcenter.png \
 	libreoffice-writer.png \
-	mate-brightness-applet.png \
-	mate-netspeed-applet.png \
+	mirage-brightness-applet.png \
+	mirage-netspeed-applet.png \
 	miro.png \
 	multimedia-volume-control.png \
 	palimpsest.png \

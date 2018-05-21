@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=BlackMIRAGE
+_Comment=A clean dark theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=BlackMIRAGE
+MetacityTheme=BlackMIRAGE
+IconTheme=mirage
+CursorTheme=mirage
+CursorSize=24
+NotificationTheme=coco
+

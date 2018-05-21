@@ -2,7 +2,7 @@
 	padding: 0;
 	background-clip: padding-box;
 	-GtkDialog-button-spacing: 4;
-	-GtkDialog-action-area-border: 10; /* buttons mate-appearance-properties */
+	-GtkDialog-action-area-border: 10; /* buttons mirage-appearance-properties */
 	-GtkScrolledWindow-scrollbar-spacing: 0;
 	-GtkTextView-error-underline-color: @error_color;
 	-GtkToolButton-icon-spacing: 4;
@@ -131,7 +131,7 @@ tooltip,
 tooltip.background,
 .tooltip.background {
 /* FIXME, use a hardcoded color value for current eclipse version
-   see https://github.com/mate-desktop/mate-themes/issues/165
+   see https://github.com/mirage-desktop/mirage-themes/issues/165
 	background-color: @theme_tooltip_bg_color;*/
 	background-color: #F5F5B5;
     background-clip: padding-box;
@@ -2103,7 +2103,7 @@ notebook header tab label {
     font-weight: normal;
 }
 
-/* notebooks, view, header and tabs in caja and pluma view */
+/* notebooks, view, header and tabs in barren and pluma view */
 paned.horizontal notebook {
     border-style: none;
     border-color: @borders;
@@ -2300,7 +2300,7 @@ notebook.frame > header.top > button.circular.flat.image-button.popup.toggle {
     padding: 0px;
 }
 
- /* ie. caja properties-window notes tab */
+ /* ie. barren properties-window notes tab */
 dialog notebook.frame > stack > scrolledwindow.frame {
      border-style: none;
 }
@@ -4346,7 +4346,7 @@ assistant .sidebar {
 	/* shall we make it like sidebars in general? */
 }
 
-assistant .sidebar label.highlight { /* ie. caja-actions import dialog */
+assistant .sidebar label.highlight { /* ie. barren-actions import dialog */
     background-color: transparent;
     color: @theme_fg_color;
     font-weight: bold;
@@ -4473,7 +4473,7 @@ treeview.view:selected:focus {
 
 iconview,
 viewport {
-    /* avoid resizing theme thumbnails in mate-appearance-properties */
+    /* avoid resizing theme thumbnails in mirage-appearance-properties */
     padding: 0px;
 }
 

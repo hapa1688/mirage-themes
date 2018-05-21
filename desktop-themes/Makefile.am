@@ -1,5 +1,5 @@
 SUBDIRS = \
-	BlackMATE \
+	BlackMIRAGE \
 	BlueMenta \
 	Blue-Submarine \
 	ContrastHigh \

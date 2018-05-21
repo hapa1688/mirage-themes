@@ -280,7 +280,7 @@
 @define-color overshoot_bg_color alpha (@theme_selected_bg_color, 0.55);
 @define-color overshoot_backdrop_bg_color #C8FA96;
 
-/* inactive-pane caja */
+/* inactive-pane barren */
 @define-color inactive-pane_bg_color #E5E5E5;
 
 @import url("gtk-widgets.css");
@@ -290,5 +290,5 @@
 @import url("sidebar.css");
 @import url("gnome-applications.css");
 @import url("other-applications.css");
-@import url("mate-applications.css");
+@import url("mirage-applications.css");
 

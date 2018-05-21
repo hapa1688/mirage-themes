@@ -5,7 +5,7 @@ style "panel-icons"
         stock ["panel-screenshot"] =    {{"stock_screenshot.png"}}
         stock ["panel-lockscreen"] =    {{"stock_lockscreen.png"}}
         stock ["panel-logout"] =        {{"stock_logout.png"}}
-        stock ["panel-mate-logo"] =    {{"stock_mate-logo.png"}}
+        stock ["panel-mirage-logo"] =    {{"stock_mirage-logo.png"}}
 
         stock ["panel-cde"] =           {{"stock_cde-menu.png"}}
 #TBD    stock ["panel-debian"] =        {{""}}
@@ -17,7 +17,7 @@ style "panel-icons"
         stock ["panel-multimedia"] =    {{"stock_multimedia.png"}}
 
         stock ["panel-internet"] =      {{"stock_internet.png"}}
-        stock ["panel-utility"] =       {{"stock_mate-util.png"}}
+        stock ["panel-utility"] =       {{"stock_mirage-util.png"}}
 
 #        stock ["panel-corner-type"] =   {{"stock_corner-panel.png"}}
 #        stock ["panel-edge-type"] =     {{"stock_edge-panel.png"}}
@@ -28,7 +28,7 @@ style "panel-icons"
         stock ["panel-launcher"] =      {{"stock_launcher-program.png"}}
 
         stock ["panel-drawer"] =        {{"stock_drawer.png"}}
-#       stock ["mate-panel-applet"] =        {{""}}
+#       stock ["mirage-panel-applet"] =        {{""}}
 #       stock ["panel-desktop"] =       {{""}}
 
 #	stock ["panel-arrow-left"] =	{{"stock_panel_hide_left.png"}}

@@ -11,12 +11,12 @@ theme_DATA = \
 	stock_home.png \
 	stock_refresh.png \
 	stock_stop.png \
-	caja.rc \
+	barren.rc \
 	pluma.rc
 
 EXTRA_DIST = $(theme_DATA)
 
 SUBDIRS = Handles \
-	Caja \
+	Barren \
 	Null \
 	Others

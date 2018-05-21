@@ -1,13 +1,13 @@
 
-  stock["mate-stock-about"] = {{ "stock_about.png" }}
-  stock["mate-stock-volume"] = {{ "stock_volume.png" }}
-  stock["mate-stock-mic"] = {{ "stock_mic.png" }}
-  stock["mate-stock-line-in"] = {{ "stock_line-in.png" }}
-  stock["mate-stock-attach"] = {{ "stock_attach.png" }}
-  stock["mate-stock-book-blue"] = {{ "stock_book.png" }}
-  stock["mate-stock-book-green"] = {{ "stock_book.png" }}
-  stock["mate-stock-book-red"] = {{ "stock_book.png" }}
-  stock["mate-stock-book-yellow"] = {{ "stock_book.png" }}
+  stock["mirage-stock-about"] = {{ "stock_about.png" }}
+  stock["mirage-stock-volume"] = {{ "stock_volume.png" }}
+  stock["mirage-stock-mic"] = {{ "stock_mic.png" }}
+  stock["mirage-stock-line-in"] = {{ "stock_line-in.png" }}
+  stock["mirage-stock-attach"] = {{ "stock_attach.png" }}
+  stock["mirage-stock-book-blue"] = {{ "stock_book.png" }}
+  stock["mirage-stock-book-green"] = {{ "stock_book.png" }}
+  stock["mirage-stock-book-red"] = {{ "stock_book.png" }}
+  stock["mirage-stock-book-yellow"] = {{ "stock_book.png" }}
 
   stock["gtk-dialog-info"] =   {{ "stock_dialog_info.png" }}
   stock["gtk-dialog-question"] = {{ "stock_dialog_question.png" }}

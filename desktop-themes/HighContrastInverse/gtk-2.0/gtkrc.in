@@ -51,8 +51,8 @@ style "default"
   GtkWidget::link-color = "#80ccff"
   GtkWidget::visited-link-color = "#ff80ff"
 
-  # Caja
-  CajaIconContainer::frame_text = 1
+  # Barren
+  BarrenIconContainer::frame_text = 1
   
   # Pidgin
   GtkIMHtml::hyperlink-color = "#80ccff"
@@ -93,14 +93,14 @@ style "default"
 @panel_stock_icons_rc@
 @media_stock_icons_rc@
 @capplet_stock_icons_rc@
-@marco_stock_icons_rc@
+@morgana_stock_icons_rc@
 
-#caja improvements
+#barren improvements
 
-style "caja-location"
+style "barren-location"
 {
 	bg[NORMAL]  = "#000000"
 }
 
-widget "*.caja-extra-view-widget" style : highest "caja-location"
+widget "*.barren-extra-view-widget" style : highest "barren-location"
 

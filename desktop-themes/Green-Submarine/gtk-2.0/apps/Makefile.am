@@ -2,7 +2,7 @@
 themedir = $(datadir)/themes/Green-Submarine/gtk-2.0/apps
 
 theme_DATA = \
-	caja.rc \
+	barren.rc \
 	gmusicbrowser.rc \
 	panel.rc \
 	pcmanfm.rc \
